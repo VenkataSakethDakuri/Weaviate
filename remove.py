@@ -1,3 +1,7 @@
+"""
+Deleting Weaviate collections
+"""
+
 import weaviate
 import weaviate.classes.config as wc
 import os

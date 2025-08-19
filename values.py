@@ -1,3 +1,7 @@
+"""
+Creating a Weaviate collection and inserting mock data.
+"""
+
 import os
 import weaviate
 import requests
