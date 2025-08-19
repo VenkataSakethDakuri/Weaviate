@@ -37,14 +37,14 @@ try:
             wc.Property(name="founded_year", data_type=wc.DataType.NUMBER),
         ],
         # Sharding configuration: 2 shards
-        sharding_config=wc.Configure.sharding(desired_count=2),
+        sharding_config=wc.Configure.sharding(desired_count=3),
         # Replication configuration: replication factor of 1
-        replication_config=wc.Configure.replication(factor=1),
+        replication_config=wc.Configure.replication(factor=2),
         # Optional: Add a vectorizer if needed; here using none for simplicity
         vectorizer_config=wc.Configure.Vectorizer.none()
     )
 
-    print("Collection 'Exchange' created with 2 shards and replication factor 1.")
+    print("Collection 'Exchange' created with 3 shards and replication factor 2.")
 
    
     exchange_collection = client.collections.get("Exchange")
