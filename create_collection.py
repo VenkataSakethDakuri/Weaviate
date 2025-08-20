@@ -1,3 +1,7 @@
+"""
+Creating a Weaviate collection and inserting some mock data.
+"""
+
 import weaviate
 import weaviate.classes.config as wc
 import os
