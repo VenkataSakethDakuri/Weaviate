@@ -25,6 +25,9 @@ AWS_NLB=your-load-balancer-url-here
 ## References
 [Weaviate Official Documentation](https://weaviate.io/)
 
+## Contributing
+Feel free to raise an issue or submit a pull request if you find any mistakes or have suggestions for improvement. Your contributions are welcome and appreciated!
+
 ---
 
 Happy Coding!
